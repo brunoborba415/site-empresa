@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borba Pulverizações</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        header {
+            background: linear-gradient(to right, #7ed957, #57a0d9);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header img {
+            max-width: 120px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .servicos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .servico {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1 1 300px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+        }
+        .galeria img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        @media (max-width: 600px) {
+            header img {
+                max-width: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="log-empresa.jpg" alt="Logo Borba Pulverizações">
+        <h1>Borba Pulverizações</h1>
+        <p>Pulverização agrícola com drones - Atendemos São Paulo e Minas Gerais</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>A Borba Pulverizações oferece serviços de pulverização agrícola com drones, garantindo eficiência, precisão e economia para produtores rurais. Utilizamos tecnologia de ponta para aumentar a produtividade e preservar o meio ambiente.</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos">
+            <div class="servico">
+                <h3>Pulverização de Culturas</h3>
+                <p>Aplicação precisa de defensivos agrícolas e fertilizantes com tecnologia drone, evitando desperdícios e reduzindo custos.</p>
+            </div>
+            <div class="servico">
+                <h3>Monitoramento de Lavouras</h3>
+                <p>Inspeções aéreas para identificar pragas, doenças e falhas no plantio, com relatórios detalhados.</p>
+            </div>
+            <div class="servico">
+                <h3>Aplicações Localizadas</h3>
+                <p>Tratamento específico apenas nas áreas afetadas, preservando o restante da lavoura.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria de Imagens</h2>
+        <div class="galeria">
+            <img src="drone-lavoura.jpg" alt="Drone na lavoura">
+            <img src="drone-campo.jpg" alt="Drone no campo">
+            <img src="equipe-drone.jpg" alt="Equipe Borba Pulverizações">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p><strong>Telefone/WhatsApp:</strong> (14) 99863-3916 | (34) 9904-1168</p>
+        <p><strong>E-mail:</strong> <a href="mailto:borba.pulverizacoes@gmail.com">borba.pulverizacoes@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Borba Pulverizações - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
